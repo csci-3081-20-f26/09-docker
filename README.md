@@ -25,7 +25,7 @@ ___
 
 ### Helpful Cheat Sheet
 This workshop touches on just a few Docker concepts, useful terminal commands and Dockerfile syntax can be found 
-in this [cheat sheet](cheatsheet.md) with some 
+in this [cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf) with some 
 more description. Not all concepts in this cheat sheet will be used for this workshop.
 
 
