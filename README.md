@@ -108,12 +108,12 @@ you'll need to edit your Dockerfile and build it again.
 To build a Docker image, you must navigate to the directory containing your Dockerfile, then run:
 ```bash
 # docker build -t <dockerhub_username/repository> <dockerfile_location>
-docker build -t wend0144/terrain_sim .
+docker build -t <user>/terrain_sim .
 ```
 
 This call invokes the commands outlined in the Dockerfile and builds our image. The `-t` flag specifies what we want 
 to name our image. The image name must be your DockerHub username foward slash drone_sim. The image name is this FULL 
-string (`dockerhub_username/repository` e.g. `wend0144/terrain_sim`). 
+string (`dockerhub_username/repository` e.g. `<user>/terrain_sim`). 
 
 `dockerfile_location` is the relative file path to our Dockerfile. Since our Dockerfile is in 
 the current directory, `<dockerfile_location>` will just be `.`
@@ -170,12 +170,12 @@ Next, you can push your image up to DockerHub with the following command:
 ```bash
 docker push <image_name>
 ```
-Make sure to use the full image name (e.g. `wend0144/terrain_sim`).
+Make sure to use the full image name (e.g. `<user>/terrain_sim`).
 
 This will take a minute or two, depending on your internet connection.
 
 **Double check your image shows up in DockerHub after you push.**
 
-Finally, in Canvas, you will submit your URL link to your Docker image on DockerHub, i.e. `https://hub.docker.com/repository/docker/wend0144/terrain_sim/general`.
+Finally, in Gradescope, you will submit your URL link to your Docker image on DockerHub, i.e. `https://hub.docker.com/repository/docker/<user>/terrain_sim/general`.
 
 Make sure to add your group members to your submission.
