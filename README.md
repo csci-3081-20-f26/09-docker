@@ -176,6 +176,6 @@ This will take a minute or two, depending on your internet connection.
 
 **Double check your image shows up in DockerHub after you push.**
 
-Finally, in Gradescope, you will submit your URL link to your Docker image on DockerHub, i.e. `https://hub.docker.com/repository/docker/<user>/terrain_sim/general`.
+Finally, in Canvas, you will submit your URL link to your Docker image on DockerHub, i.e. `https://hub.docker.com/repository/docker/<user>/terrain_sim/general`.
 
-Make sure to add your group members to your submission.
+If you worked in a group, submit the link for the image that the group uploaded.
