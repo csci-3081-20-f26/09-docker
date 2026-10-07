@@ -1,16 +1,14 @@
-# Workshop 4 - Docker 
+# Workshop - Docker 
 
-You will be working in your _project groups_ in this workshop (or solo). 
+You may work in groups on this workshop. 
 
-In this workshop, you will be using Docker to containerize your Terrain Simulation project code. Containerization allows 
+In this workshop, you will be using Docker to containerize a Terrain Simulation application. Containerization allows 
 developers to ship and deploy projects easily without users needing to setup complicated dependencies or directory structures.
 By the end of this workshop, you will have a Docker image that contains your project code and can be run on any machine 
 (that has Docker installed) with a single command.
 
-You will be containerizing your project code. We have included a copy of that code within this repo to help with a clean workshop. You are welcome to instead use your own Iteration 2 submission work, if it is in a working state. You will be required to containerize your Iteration 3 submission, so this can be good practice.
-
 ## Prerequisites
-As mentioned in the Canvas announcement, you should already have Docker installed, as well as an account on Docker Hub.
+You should already have Docker installed, as well as an account on Docker Hub.
 If you don't have Docker installed yet, instructions can be found here ([Windows](https://docs.docker.com/desktop/install/windows-install/),
 [macOS (Apple Silicon & Intel)](https://docs.docker.com/desktop/install/mac-install/), [Linux](https://docs.docker.com/desktop/install/linux-install/)). If you don't have a DockerHub account, create one here (don't use 
 your UMN email, you might lose access to this after you graduate): https://hub.docker.com.
