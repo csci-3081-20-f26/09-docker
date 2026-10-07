@@ -95,7 +95,7 @@ WORKDIR <path>    # changes the directory in the Docker container (similar to ho
 
 CMD [ "list", "of", "args" ] # a bash command the container executes when the container is started
 ```
-A more detailed description of these instructions can be found in this [cheat sheet](cheatsheet.md).
+A more detailed description of these instructions can be found in this [cheat sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf).
 
 The command that needs to run when the Docker container is run is not the standard `make run`, but rather the more direct command:
 
